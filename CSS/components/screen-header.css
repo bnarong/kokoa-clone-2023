@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 55px 45px var(--horizontal-space) var(--horizontal-space);
+  padding: 55px var(--horizontal-space) 30px var(--horizontal-space);
   position: sticky;
   top: 0;
   background-color: white;
@@ -15,4 +15,9 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
+}
+.screen-header__dot {
+  left: 22px;
+  bottom: 21px;
 }
