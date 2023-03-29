@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .user-component,
@@ -11,7 +12,7 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 30px;
+  border-radius: 28px;
   margin-right: 20px;
 }
 
