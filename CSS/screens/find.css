@@ -21,11 +21,21 @@
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  opacity: 0.5;
   margin-top: -5px;
   margin-bottom: 25px;
 }
 
+.open-chat__header-title {
+  opacity: 0.5;
+}
+.open-chat__header span {
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.5);
+}
+.open-chat__header span:hover {
+  cursor: pointer;
+  color: black;
+}
 .open-post {
   display: flex;
   justify-content: space-between;

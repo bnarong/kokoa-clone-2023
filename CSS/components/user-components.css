@@ -53,8 +53,13 @@
   flex-direction: column;
   align-items: flex-end;
 }
-.user-component__column--not-gray i {
-  color: #2e363e;
+.user-component__column-envelope i {
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.6);
+}
+.user-component__column-envelope i:hover {
+  cursor: pointer;
+  color: black;
 }
 
 .user-component__time {
