@@ -2,6 +2,9 @@
   padding: 0 25px;
   border-bottom: 1px solid #e5e5e5;
 }
+.settings-list:first-child {
+  margin-top: 90px;
+}
 .settings__setting {
   padding: 23px 0;
   border-bottom: 0.5px solid #f7f7f7;

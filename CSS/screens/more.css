@@ -2,9 +2,9 @@
   margin-top: 30px;
 }
 .more-suggestions {
-  margin-top: 35px;
+  margin-top: 25px;
   border-top: var(--main-border);
-  padding-top: 35px;
+  padding-top: 30px;
 }
 .more-suggestions__title {
   margin-bottom: 30px;
@@ -13,6 +13,7 @@
 }
 .more-suggestions__icons {
   display: flex;
+  padding: 0px 10px;
 }
 .more-suggestions__icon {
   margin-right: 30px;
@@ -21,8 +22,8 @@
   align-items: center;
 }
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
+  width: 58px;
+  height: 58px;
   background-color: var(--yellow);
   border-radius: 10px;
   display: flex;

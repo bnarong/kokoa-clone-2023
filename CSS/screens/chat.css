@@ -1,6 +1,12 @@
-#chat-screen {
+#chat {
   background-color: #e9d6ff;
 }
 .chat-header {
   background-color: #e9d6ff;
+}
+.status-bar__chat {
+  background-color: #e9d6ff;
+}
+.chat-screen {
+  padding-top: 10px;
 }
