@@ -64,3 +64,53 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply .reply__column:first-child {
+  width: 7%;
+}
+.reply .reply__column:last-child {
+  width: 93%;
+  position: relative;
+}
+.reply input {
+  padding: 12px 5px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+.reply__column > i {
+  opacity: 0.7;
+}
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: -6px;
+  top: 5px;
+}
+.reply__column:last-child > i {
+  right: 40px;
+  top: 20px;
+}
+.reply__column button {
+  background-color: #6000e8;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
