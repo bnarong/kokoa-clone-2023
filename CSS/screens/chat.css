@@ -18,9 +18,36 @@
   font-size: 14px;
   padding: 8px 15px;
   border-radius: 25px;
+  margin-bottom: 25px;
+}
+.message-row {
+  width: 100%;
+  display: flex;
 }
 .message-row img {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
+  width: 55px;
+  height: 55px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.message__author {
+  display: block;
+  margin-bottom: 7px;
+}
+.message__bubble {
+  background-color: white;
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+  border: 1px solid;
+}
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__time {
+  opacity: 0.8;
+  font-size: 15px;
 }
