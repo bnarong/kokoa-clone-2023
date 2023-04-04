@@ -60,6 +60,7 @@
   color: white;
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
+  border: 1px solid black;
 }
 .message-row--own .message__info {
   flex-direction: row-reverse;
@@ -84,7 +85,7 @@
   position: relative;
 }
 .reply input {
-  padding: 12px 5px;
+  padding: 14px 5px;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 25px;
@@ -96,11 +97,11 @@
 .reply__column:last-child button {
   position: absolute;
   right: -6px;
-  top: 5px;
+  top: 7px;
 }
 .reply__column:last-child > i {
   right: 40px;
-  top: 20px;
+  top: 22px;
 }
 .reply__column button {
   background-color: #6000e8;
