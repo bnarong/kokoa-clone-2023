@@ -28,6 +28,16 @@
   align-items: center;
   color: rgba(0, 0, 0, 0.5);
 }
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 #splash-screen {
   background-color: #e9d6ff;
   position: absolute;
@@ -39,4 +49,6 @@
   align-items: center;
   font-size: 132px;
   z-index: 999;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 2.5s;
 }
