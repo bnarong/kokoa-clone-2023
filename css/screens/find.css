@@ -1,36 +1,38 @@
 .recommended-friends {
-  padding: 25px 0px;
-  margin: 25px 0px;
+  padding: 15px 0;
+  margin: 15px 0;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
 
 .recommended-friends__title {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .recommended-friends span {
-  margin: 100px 0px;
+  margin: 95px 0px;
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
 }
 
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  margin-top: -5px;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 17px;
 }
 
 .open-chat__header-title {
-  opacity: 0.5;
+  font-size: 14px;
+  opacity: 0.6;
 }
 .open-chat__header span {
+  font-size: 14px;
   transition: color 0.3s ease-in-out;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
 }
 .open-chat__header span:hover {
   cursor: pointer;
@@ -84,20 +86,20 @@
 }
 
 .open-post__photo img {
-  width: 115px;
-  height: 115px;
-  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 7px;
 }
 .open-post__heart-count {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
-  padding: 5px;
+  padding: 4px 8px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 9px;
   font-size: 14px;
 }
 

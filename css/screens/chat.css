@@ -48,9 +48,9 @@
   animation: fadeInMessageRow 0.4s linear forwards;
 }
 .message-row img {
-  width: 55px;
-  height: 55px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
   margin-right: 10px;
 }
 .message__author {
@@ -59,7 +59,7 @@
 }
 .message__bubble {
   background-color: white;
-  padding: 13px;
+  padding: 12px 13px;
   font-size: 18px;
   border-radius: 15px;
   border-top-left-radius: 0px;
@@ -71,8 +71,8 @@
 }
 .message__time {
   opacity: 0.8;
-  font-size: 15px;
-  margin: 0px 5px;
+  font-size: 12px;
+  margin: 0px 8px;
 }
 .message-row--own {
   justify-content: flex-end;

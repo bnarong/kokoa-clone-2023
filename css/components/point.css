@@ -1,7 +1,7 @@
 .point {
   background-color: tomato;
-  width: 5.5px;
-  height: 5.5px;
-  border-radius: 3px;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
   position: absolute;
 }
