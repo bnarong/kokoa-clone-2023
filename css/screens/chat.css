@@ -1,24 +1,22 @@
-#chat {
-  background-color: #e9d6ff;
-}
-.chat-header {
-  background-color: #e9d6ff;
-}
+#chat,
+.chat-header,
 .status-bar__chat {
-  background-color: #e9d6ff;
+  background-color: var(--light-purple);
 }
+
 .chat-screen {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 96px 23px 0 23px;
 }
 .chat__timestamp {
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
-  font-size: 14px;
+  font-size: 13px;
   padding: 8px 15px;
   border-radius: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 @keyframes fadeInMessageRow {
   from {
@@ -48,19 +46,22 @@
   animation: fadeInMessageRow 0.4s linear forwards;
 }
 .message-row img {
-  width: 50px;
-  height: 50px;
-  border-radius: 19px;
+  width: 45px;
+  height: 45px;
+  border-radius: 18px;
   margin-right: 10px;
 }
 .message__author {
   display: block;
-  margin-bottom: 7px;
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.9);
 }
 .message__bubble {
   background-color: white;
   padding: 12px 13px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 500;
   border-radius: 15px;
   border-top-left-radius: 0px;
   border: 1px solid;
@@ -71,7 +72,7 @@
 }
 .message__time {
   opacity: 0.8;
-  font-size: 12px;
+  font-size: 11px;
   margin: 0px 8px;
 }
 .message-row--own {
@@ -81,7 +82,7 @@
   animation-delay: 0.8s;
 }
 .message-row--own .message__bubble {
-  background-color: #6000e8;
+  background-color: var(--purple);
   color: white;
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
@@ -130,7 +131,7 @@
   top: 22px;
 }
 .reply__column button {
-  background-color: #6000e8;
+  background-color: var(--purple);
   color: white;
   border: none;
   width: 30px;

@@ -72,20 +72,23 @@
   color: rgba(0, 0, 0, 0.4);
 }
 .login-form__input:focus {
-  border-color: var(--yellow);
+  border-color: var(--purple);
 }
+
+.login-form__a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
+
 .login-form__btn {
-  background-color: var(--yellow);
+  background-color: var(--purple);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
   border: none;
   font-size: 16px;
   margin-bottom: 25px;
-}
-.login-form__a {
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  font-size: 13px;
+  color: white;
 }
