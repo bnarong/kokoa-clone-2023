@@ -1,6 +1,7 @@
 .user-component {
   justify-content: space-between;
   margin-top: 10px;
+  background-color: white;
 }
 
 .user-component,
@@ -10,15 +11,15 @@
 }
 
 .user-component__avatar {
-  width: 60px;
-  height: 60px;
+  width: 58px;
+  height: 58px;
   border-radius: 23px;
   margin-right: 17px;
 }
 
 .user-component__avatar--xl {
-  width: 63px;
-  height: 63px;
+  width: 62px;
+  height: 62px;
   border-radius: 25px;
   margin-right: 17px;
 }
