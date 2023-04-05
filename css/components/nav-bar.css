@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   background-color: #f9f9fa;
-  padding: 20px 50px;
+  padding: 16px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -16,24 +16,29 @@
   position: relative;
   color: #2e363e;
 }
+.nav__link i {
+  font-size: 25px;
+}
 
 .nav__notification {
   position: absolute;
-  left: 19px;
-  bottom: 16px;
+  left: 16px;
+  bottom: 15px;
+  width: 18px;
+  height: 18px;
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__dot {
-  left: 27px;
-  bottom: 27px;
+  left: 24px;
+  bottom: 23px;
 }
 @keyframes notificationAnimation {
   0% {
     transform: none;
   }
   50% {
-    transform: translateY(-5px) rotateY(360deg);
+    transform: translateY(-3px) rotateY(360deg);
   }
   100% {
     transform: none;
